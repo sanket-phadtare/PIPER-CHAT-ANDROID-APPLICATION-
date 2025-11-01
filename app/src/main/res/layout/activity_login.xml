@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logiii"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/logi"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:hint="Enter User-name"
+        android:inputType="textPersonName"/>
+
+
+
+    <EditText
+        android:id="@+id/pasi"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_below="@id/logi"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        android:hint="Enter Password"
+        android:inputType="textPassword"/>
+
+
+    <Button
+        android:id="@+id/logibtn"
+        android:layout_width="170dp"
+        android:layout_height="140dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/logi"
+        android:background="#00FFFFFF"/>
+
+
+
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="200dp"
+        android:layout_below="@id/pasi"
+        android:text="Forgot Password ?"
+        android:textColor="#2B0548"
+        android:textSize="15sp"/>
+
+</RelativeLayout>

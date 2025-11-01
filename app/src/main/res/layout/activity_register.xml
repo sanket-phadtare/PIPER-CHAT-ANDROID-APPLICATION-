@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/regis"
+    tools:context=".RegisterActivity">
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="60dp"
+        android:layout_above="@id/email"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter User-name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="60dp"
+        android:layout_centerVertical="true"
+        android:hint="Enter E-mail"
+        android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="60dp"
+            android:layout_below="@id/email"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Password"
+            android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/email"
+        android:background="#00FFFFFF" />
+
+
+</RelativeLayout>

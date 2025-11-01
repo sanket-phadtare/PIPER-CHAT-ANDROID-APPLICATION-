@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "443695127827",
+    "project_id": "piperchat-d83c6",
+    "storage_bucket": "piperchat-d83c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443695127827:android:612ec94636bb88e5068ee6",
+        "android_client_info": {
+          "package_name": "com.example.piperchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "443695127827-udpn1pafdn7a11g3fsndk34k9t2ausvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL1RjVxjiTnl-kP5sKbeUydsz5bcCzpuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "443695127827-udpn1pafdn7a11g3fsndk34k9t2ausvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

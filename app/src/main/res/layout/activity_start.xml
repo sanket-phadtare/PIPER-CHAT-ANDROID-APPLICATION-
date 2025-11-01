@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whatsapp_image_2021_04_29_at_16_07_59"
+    tools:context=".StartActivity">
+
+    <Button
+        android:id="@+id/log"
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="363dp"
+        android:background="#00FFFFFF" />
+
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="290dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/log"
+        android:layout_marginTop="45dp"
+        android:background="#00FFFFFF"/>
+
+</RelativeLayout>
